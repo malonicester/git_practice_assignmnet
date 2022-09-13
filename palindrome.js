@@ -1,9 +1,11 @@
-let str = "racecar";
+let arr = "raceca";
 
-let palindrome = false;
-    for(let i = 0 ;i<str.length;i++){
-           if(arr[i]==arr[i+1]){
-             palindrome = true;
+let palindrome = true;
+let size = arr.length-1;
+    for(let i = 0 ;i<arr.length;i++){
+           if(arr[i]!=arr[size-i]){
+             palindrome = false;
+             break;
 	   }
 
     }
