@@ -1,4 +1,4 @@
-let arr = "raceca";
+let arr = "aaacaaa";
 
 let palindrome = true;
 let size = arr.length-1;
@@ -9,6 +9,7 @@ let size = arr.length-1;
 	   }
 
     }
+    
      if(palindrome){
       console.log("is Palindrome");
      }else{
