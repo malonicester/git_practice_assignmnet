@@ -1,4 +1,7 @@
+
 let arr = "racecar";
+
+
 
 let palindrome = true;
 let size = arr.length-1;
@@ -9,6 +12,7 @@ let size = arr.length-1;
 	   }
 
     }
+    
      if(palindrome){
       console.log("is Palindrome");
      }else{
