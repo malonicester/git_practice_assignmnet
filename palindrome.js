@@ -1,4 +1,7 @@
-let arr = "aaacaaa";
+
+let arr = "racecar";
+
+
 
 let palindrome = true;
 let size = arr.length-1;
