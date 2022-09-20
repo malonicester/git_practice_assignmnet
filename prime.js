@@ -5,4 +5,4 @@ for (let i = 1; i <= num; i++) {
     count++;
   }
 }
-count > 2 ? console.log("not prime") : console.log("prime");
+count == 2 ? console.log("prime") : console.log("not prime");

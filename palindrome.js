@@ -1,4 +1,4 @@
-let arr = "raceca";
+let arr = "racecar";
 
 let palindrome = true;
 let size = arr.length-1;
